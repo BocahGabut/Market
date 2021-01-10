@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.container {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container__search {
+  width: 100%;
+}
+
+.container__search .search__ {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 98%;
+  border-radius: 20px;
+}
+
+.container__search .search__ input[type="text"] {
+  font-size: 15px;
+  margin-left: 0.5rem;
+  width: 100%;
+  padding: 0.2rem 0.5rem;
+  border: none;
+}
+
+.container__search .search__ .finds__ {
+  color: var(--color-secondary);
+  border: none;
+  background: none;
+  font-size: 1.1rem;
+  padding: 0.2rem 0.4rem;
+}
+
+.container__search .search__ .finds__:hover {
+  cursor: pointer;
+}
+
+.container .back__ {
+  color: var(--color-secondary);
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.container .back__:hover {
+  -webkit-transform: translate(-5px);
+          transform: translate(-5px);
+}
+
+.container .main__ {
+  width: 100%;
+  height: 100%;
+}
+
+.container .main__ h4 {
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.container .main__ .search__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 0.5rem;
+}
+
+.container .list__ {
+  width: 90%;
+  margin: 5px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  padding: 0.8rem 2rem;
+  color: #000;
+}
+
+.container .list__:hover {
+  -webkit-box-shadow: 3px 3px 7px #d5d8da, -3px -3px 7px #fbfeff;
+          box-shadow: 3px 3px 7px #d5d8da, -3px -3px 7px #fbfeff;
+  color: var(--color-secondary);
+  -webkit-transform: translate(25px);
+          transform: translate(25px);
+}
+/*# sourceMappingURL=style.css.map */
